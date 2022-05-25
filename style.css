@@ -1,0 +1,204 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.image1 {
+  display: grid;
+  position: relative;
+  padding: 100px;
+  bottom: 110px;
+  right: 450px;
+}
+nav {
+  background-color: brown;
+}
+header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.2rem;
+  color: white;
+  background-color: rgb(40, 39, 39);
+  padding: 10px;
+  margin: 20px;
+}
+.nav-bar {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left: 700px;
+  list-style: none;
+  gap: 1.2rem;
+}
+.projects {
+  text-decoration: none;
+  color: white;
+}
+.top {
+  text-decoration: none;
+  color: white;
+}
+.experience {
+  text-decoration: none;
+  color: white;
+}
+.box {
+  background-color: rgb(33, 32, 31);
+  color: white;
+  width: 600px;
+  display: grid;
+  grid-template-rows: 30px 30px 50px 30px;
+  margin: 100px 0px 0px 500px;
+  padding: 10px;
+  font-family: sans-serif;
+  animation: slideIn1 1s linear;
+ 
+
+}
+.box h3 {
+  padding-left: 140px;
+  color: rgb(225, 215, 25);
+}
+.img1{
+  padding: 100px;
+  position: relative;
+
+}
+
+
+.main1 {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  border: 1px solid black;
+  width: 330px;
+  gap: 0.3rem;
+  margin-bottom: 60px;
+}
+.main0 img {
+  height: 300px;
+  width: 300px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.main1 button {
+  width: 300px;
+  height: 20px;
+  justify-items: center;
+  color: beige;
+  background-color: rgb(250, 70, 21);
+  padding-left: 20px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  transition: 500ms;
+}
+.main1 button:hover {
+  background-color: rgba(247, 136, 105, 0.58);
+  color: black;
+  border: 5px solid rgba(156, 131, 124, 0.58);
+  height: 30px;
+  transform: scale(1.09);
+}
+.main0 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left: 30px;
+}
+.main0 h4 {
+  color: rgb(250, 70, 21);
+  font-family: sans-serif;
+}
+.project-text {
+  padding-left: 540px;
+  padding-top: 40px;
+  margin-bottom: 5px;
+}
+
+.main {
+  background-color: rgb(223, 217, 217);
+}
+.second {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 400px;
+  margin-bottom: 5px;
+  margin-left: 400px;
+  padding-top: 10px;
+  justify-items: center;
+  background-color: white;
+}
+
+.second img {
+  background-color: brown;
+}
+.third {
+  background-color: rgb(133, 161, 232);
+}
+#header {
+  background-color: black;
+  height: 30px;
+  color: white;
+  padding-left: 550px;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.top p {
+  transition: 200ms;
+}
+.top p:hover {
+  transform: scale(1.02);
+  background-color: rgb(75, 61, 61);
+}
+.experience p {
+  transition: 200ms;
+}
+.experience p:hover {
+  transform: scale(1.02);
+  background-color: rgb(75, 61, 61);
+}
+.projects p {
+  transition: ms;
+}
+.projects p:hover {
+  transform: scale(1.02);
+  background-color: rgb(75, 61, 61);
+}
+.material-symbols-outlined{
+  position: absolute;
+    display: grid;
+  left: 600px;
+  color: white;
+  bottom: 20px;
+animation: identifier 1s infinite linear;
+}
+
+.material-symbols-outlined:hover{
+ bottom: 15px;
+ background-color: rgb(223, 112, 112);
+ transition: 0.3s;
+}
+.image1{
+  animation: end 1s linear;
+  
+
+
+}
+@keyframes slideIn1 {
+  0% {
+    transform: rotate(2deg) translateX(1000px);
+  }
+
+  100% {
+    transform: rotate(2deg) translateX(0px);
+  }
+}
+@keyframes end {
+  0% {
+    transform: rotate(260deg) translateX(1000px);
+  }
+
+  100% {
+    transform: rotate(2deg) translateX(0px);
+  }
+}
+  
